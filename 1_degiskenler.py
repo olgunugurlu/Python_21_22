@@ -14,3 +14,4 @@ uzun_kenar = 5 #snake case
 not3 = 100
 ortalama = 4.5
 x = "veri"
+##

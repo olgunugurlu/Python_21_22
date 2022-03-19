@@ -19,7 +19,7 @@ print(type(ders))
 # (Değişkenlerinizin isimleri hesaplamalarınıza uygun olsun)
 a = float(input("Uzun Kenar: "))
 b = float(input("Kısa Kenar: "))
-alan = a * b;
+alan = a * b
 cevre = 2 * (a + b)
 print(f'Alan: {alan} Çevre: {cevre}')
 # %%
@@ -66,3 +66,10 @@ print(sehirler)
 
 
 # %%
+ad = input("Adınızı Giriniz: ") ## string bir ifade döner ""
+soyad = input("Soyadınızı Giriniz: ")
+birlesim = ad + " " + soyad
+print("Adı Soyadı: ", birlesim)
+print("Adı Soyad: " + birlesim)
+print(f'Adı Soyadı: {birlesim}')
+print("Adı Soyadı {} {}".format(ad, soyad))

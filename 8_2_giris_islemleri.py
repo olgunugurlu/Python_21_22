@@ -55,18 +55,18 @@ toplam = sinav1 + sinav2 + performans
 print("Ortalama: ", toplam)
 
 # %%
-x = 5
-y = x
-print(x is y)
-print(x == y)
-print(hex(id(x)))
-print(hex(id(y)))
-#x = 7
-y = 6
-print(x is y)
-print(x == y)
-print(hex(id(x)))
-print(hex(id(y)))
+# x = 5
+# y = x
+# print(x is y)
+# print(x == y)
+# print(hex(id(x)))
+# print(hex(id(y)))
+# #x = 7
+# y = 6
+# print(x is y)
+# print(x == y)
+# print(hex(id(x)))
+# print(hex(id(y)))
 
 
 # %%
