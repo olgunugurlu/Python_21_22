@@ -51,7 +51,7 @@ sehirler.remove("Eskişehir")
 #Listeyi yazdırınız
 print(sehirler)
 #Listeye Ankaradan sonra Afyokkarahisar'ı ekleyiniz
-sehirler.insert(2, "Afyokkarahisar")
+sehirler.insert(2, "Afyonkarahisar")
 #Listeyi yazdırınız
 print(sehirler)
 #Ankara şehrinin indeks numarasını bulunuz
@@ -73,11 +73,11 @@ print(sehirler_son)
 sehirler.clear()
 #sehirler listsini yazdırınız
 print(sehirler)
-######################3333333333333333333333333333333########################### 4 - 20
-#İnsanlar için en uygun günlük nem oranı %40 - %60 arasında değişmektedir. Aralıklar dahil.
+######################3333333333333333333333333333333########################### 4 - 16
+#İnsanlar için en uygun günlük nem oranı %40 - %60 arasında değişmektedir.
 #Bir nem ölçer tarafınfan alınan değere göre girilen değer
 #Uygun aralıkta ise normal, düşükse düşük nem, yüksekse yüksek nem yazdıran programı yazınız
-
+#Not:  40 ve 60 aralığa dahildir.
 nem = int(input("Nem Oranı (%): "))
 if nem >= 40 and nem <= 60:
     print("Normal Nem")
@@ -86,7 +86,7 @@ elif nem < 40:
 else:
     print("Yüksek Nem")
 
-######################44444444444444444444444444444########################### 3 - 20
+######################44444444444444444444444444444########################### 3 - 24
 #Bir okuldaki sınavlarla ilgili aşağıdaki kümeler verilmiştir
 #Matematik dersini alan öğrenclier
 matematik = {"Ahmet","Ayşe","Filiz","Kemal","Zeynep","Arat"}
